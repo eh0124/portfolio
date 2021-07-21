@@ -5,10 +5,10 @@
   font-style: normal;
 }
 
-$background-color : #FFF5DE;
-$primary-color : #3C5186;
-$second-color : #9B72AA;
-$third-color : #C6B4CE;
+$background-color : #FFF5EA;
+$primary-color : #065C6F;
+$second-color : #7C9473;
+$third-color : #CFDAC8;
 
 
 body {
@@ -49,7 +49,7 @@ body {
     font-size: 2rem;
     font-weight: 800;
     color: $primary-color;
-
+    line-height: 2.5rem;
   }
 
   h5 {
@@ -393,9 +393,7 @@ body {
         }
 
         .i_left_txt {
-          text-align: left;
-          margin-left: 10rem;
-
+          margin-top: 2rem;
           h6 {
             margin: 1rem 0;
           }
@@ -426,16 +424,18 @@ body {
 
   // SKILLS
   .skills {
-    width: 1200px;
-    margin: 5rem auto;
+    background-color: #fff;
 
     h2 {
       margin-bottom: 2rem;
+      color: #2f2f2f;
     }
 
     .container {
+      padding: 5rem 0;
       h4 {
         margin: 2rem 0 1rem;
+        color: $primary-color;
       }
 
       .skill-bar {
@@ -469,14 +469,19 @@ body {
         width: 30%;
       }
     }
+    .design{
+      .s-70 {
+        margin-bottom: 0;
+      }
+    }
   }
 
 
   // REDESIGN
   .redesign {
-    margin: 5rem auto 0;
+    margin: 0 auto;
     padding: 5rem 0 10rem;
-    background-color: $second-color;
+    background-color: $primary-color;
 
     h2 {
       margin-bottom: 2rem;
@@ -494,10 +499,14 @@ body {
 
       &:hover {
         background-color: $background-color;
+        h4 {
+          color: $primary-color;
+        }
       }
 
       h4 {
         margin: 1rem 0;
+        color: $third-color;
       }
 
       img {

@@ -5,7 +5,7 @@
   font-style: normal; }
 
 body {
-  background-color: #FFF5DE; }
+  background-color: #FFF5EA; }
   body * {
     margin: 0;
     padding: 0;
@@ -22,19 +22,20 @@ body {
     font-size: 4rem;
     font-weight: 800;
     line-height: 4.2rem;
-    color: #9B72AA; }
+    color: #7C9473; }
   body h3 {
     font-size: 3rem;
     font-weight: 800;
-    color: #3C5186; }
+    color: #065C6F; }
   body h4 {
     font-size: 2rem;
     font-weight: 800;
-    color: #3C5186; }
+    color: #065C6F;
+    line-height: 2.5rem; }
   body h5 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #9B72AA; }
+    color: #7C9473; }
   body h6 {
     font-size: 1.2rem;
     font-weight: 600;
@@ -44,7 +45,7 @@ body {
     font-weight: 400;
     line-height: 1.2rem; }
   body i {
-    color: #FFF5DE;
+    color: #FFF5EA;
     margin-right: 1rem; }
   body .container {
     width: 1200px;
@@ -66,14 +67,14 @@ body {
       display: inline-block !important; }
       body .btn-primary span:focus, body .btn-primary span:hover {
         outline: 0;
-        color: #C6B4CE;
+        color: #CFDAC8;
         transition: color 1s ease;
         cursor: pointer; }
       body .btn-primary span:after, body .btn-primary span:before {
         transition: all 1s ease 0s; }
       body .btn-primary span:focus:after, body .btn-primary span:focus:before, body .btn-primary span:hover:after, body .btn-primary span:hover:before {
         outline: 0;
-        background-color: #3C5186;
+        background-color: #065C6F;
         transition: all 1s ease 0s; }
       body .btn-primary span:before {
         position: absolute;
@@ -113,15 +114,15 @@ body {
       opacity: 0.7; }
     body main .button_container.active .top {
       transform: translateY(15px) translateX(0) rotate(45deg);
-      background: #9B72AA; }
+      background: #7C9473; }
     body main .button_container.active .middle {
       opacity: 0;
-      background: #9B72AA; }
+      background: #7C9473; }
     body main .button_container.active .bottom {
       transform: translateY(-15px) translateX(0) rotate(-45deg);
-      background: #9B72AA; }
+      background: #7C9473; }
     body main .button_container span {
-      background: #9B72AA;
+      background: #7C9473;
       border: none;
       height: 5px;
       width: 100%;
@@ -136,7 +137,7 @@ body {
       top: 30px; }
     body main .overlay {
       position: fixed;
-      background: #3C5186;
+      background: #065C6F;
       top: 0;
       left: 0;
       width: 100%;
@@ -235,7 +236,7 @@ body {
     opacity: 1;
     left: 0; } }
   body .introduce {
-    background-color: #C6B4CE;
+    background-color: #CFDAC8;
     padding: 5rem 0; }
     body .introduce .hello {
       margin-bottom: 5rem; }
@@ -245,7 +246,7 @@ body {
           color: #2f2f2f; }
         body .introduce .hello .name .n__span {
           font-weight: 800;
-          color: #3C5186; }
+          color: #065C6F; }
     body .introduce .container {
       display: flex;
       align-items: center; }
@@ -255,15 +256,14 @@ body {
         body .introduce .container .i__left img {
           margin-bottom: 2rem; }
         body .introduce .container .i__left .i_left_txt {
-          text-align: left;
-          margin-left: 10rem; }
+          margin-top: 2rem; }
           body .introduce .container .i__left .i_left_txt h6 {
             margin: 1rem 0; }
       body .introduce .container .i__right {
         width: 60%; }
         body .introduce .container .i__right h4 {
           margin-bottom: 2rem;
-          color: #FFF5DE; }
+          color: #FFF5EA; }
         body .introduce .container .i__right .education {
           margin-bottom: 2rem; }
           body .introduce .container .i__right .education .e__grid {
@@ -272,33 +272,38 @@ body {
             grid-template-rows: 8fr 8fr;
             grid-gap: 20px; }
   body .skills {
-    width: 1200px;
-    margin: 5rem auto; }
+    background-color: #fff; }
     body .skills h2 {
-      margin-bottom: 2rem; }
-    body .skills .container h4 {
-      margin: 2rem 0 1rem; }
-    body .skills .container .skill-bar {
-      background-color: #C6B4CE;
-      color: #fff;
-      margin: 0.8rem;
-      padding: 1rem; }
-    body .skills .container .s-100 {
-      width: 100%; }
-    body .skills .container .s-80 {
-      width: 80%; }
-    body .skills .container .s-70 {
-      width: 70%; }
-    body .skills .container .s-60 {
-      width: 60%; }
-    body .skills .container .s-50 {
-      width: 50%; }
-    body .skills .container .s-30 {
-      width: 30%; }
+      margin-bottom: 2rem;
+      color: #2f2f2f; }
+    body .skills .container {
+      padding: 5rem 0; }
+      body .skills .container h4 {
+        margin: 2rem 0 1rem;
+        color: #065C6F; }
+      body .skills .container .skill-bar {
+        background-color: #CFDAC8;
+        color: #fff;
+        margin: 0.8rem;
+        padding: 1rem; }
+      body .skills .container .s-100 {
+        width: 100%; }
+      body .skills .container .s-80 {
+        width: 80%; }
+      body .skills .container .s-70 {
+        width: 70%; }
+      body .skills .container .s-60 {
+        width: 60%; }
+      body .skills .container .s-50 {
+        width: 50%; }
+      body .skills .container .s-30 {
+        width: 30%; }
+    body .skills .design .s-70 {
+      margin-bottom: 0; }
   body .redesign {
-    margin: 5rem auto 0;
+    margin: 0 auto;
     padding: 5rem 0 10rem;
-    background-color: #9B72AA; }
+    background-color: #065C6F; }
     body .redesign h2 {
       margin-bottom: 2rem;
       color: #fff; }
@@ -311,9 +316,12 @@ body {
       transition: all 0.8s;
       cursor: pointer; }
       body .redesign .slick-slide:hover {
-        background-color: #FFF5DE; }
+        background-color: #FFF5EA; }
+        body .redesign .slick-slide:hover h4 {
+          color: #065C6F; }
       body .redesign .slick-slide h4 {
-        margin: 1rem 0; }
+        margin: 1rem 0;
+        color: #CFDAC8; }
       body .redesign .slick-slide img {
         width: 300px;
         height: 200px;
@@ -386,7 +394,7 @@ body {
           width: 60px; }
   body .publishing {
     padding: 5rem 0 10rem;
-    background-color: #C6B4CE; }
+    background-color: #CFDAC8; }
     body .publishing h2 {
       margin-bottom: 2rem;
       color: #fff; }
@@ -399,7 +407,7 @@ body {
       transition: all 0.8s;
       cursor: pointer; }
       body .publishing .slick-slide:hover {
-        background-color: #FFF5DE; }
+        background-color: #FFF5EA; }
       body .publishing .slick-slide h4 {
         margin: 1rem 0; }
       body .publishing .slick-slide img {
@@ -476,11 +484,11 @@ body {
         body .publishing .slick-dots #slick-slide-control14:active {
           width: 60px; }
   body .rules {
-    background-color: #FFF5DE;
+    background-color: #FFF5EA;
     padding: 5rem 0; }
     body .rules h2 {
       margin-bottom: 2rem;
-      color: #9B72AA; }
+      color: #7C9473; }
     body .rules .flex {
       display: flex;
       align-items: center;
@@ -505,9 +513,9 @@ body {
   body footer {
     padding: 5rem;
     text-align: center;
-    background-color: #3C5186; }
+    background-color: #065C6F; }
     body footer h4 {
-      color: #FFF5DE; }
+      color: #FFF5EA; }
   body #move_top_btn {
     position: fixed;
     right: 2%;
