@@ -70,7 +70,7 @@ body .btn-primary {
     padding: 10px;
     transition: color 1s ease;
     font-weight: 600;
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #344FA1;
     margin-bottom: 15px !important;
     font-size: 16px !important;
     display: inline-block !important; }
@@ -298,7 +298,8 @@ body .redesign {
   padding: 5rem 0 10rem;
   background-color: #A3D2CA; }
   body .redesign h2 {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    color: #fff; }
   body .redesign .slick-slide {
     width: 300px;
     margin: 0 1rem;
@@ -507,7 +508,6 @@ body .rules {
     body .rules .flex .r__left,
     body .rules .flex .r__right {
       width: 45%;
-      height: 950px;
       background-color: #fff;
       padding: 2rem;
       border-radius: 30px; }
@@ -520,7 +520,7 @@ body .rules {
         margin-bottom: 0.5rem; }
       body .rules .flex .r__left p,
       body .rules .flex .r__right p {
-        margin-bottom: 1rem; }
+        margin-bottom: 2rem; }
 
 body footer {
   padding: 5rem;
