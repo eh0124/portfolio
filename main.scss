@@ -6,13 +6,11 @@
 }
 
 $background-color : #FFF5EA;
-$primary-color : #065C6F;
-$second-color : #7C9473;
-$third-color : #CFDAC8;
+$primary-color : #344FA1;
+$second-color : #A3D2CA;
 
 
 body {
-  background-color: $background-color;
 
   * {
     margin: 0;
@@ -30,13 +28,14 @@ body {
 
   h1 {
     font-size: 7rem;
+    color: $primary-color;
   }
 
   h2 {
     font-size: 4rem;
     font-weight: 800;
     line-height: 4.2rem;
-    color: $second-color;
+    color: $primary-color;
   }
 
   h3 {
@@ -48,14 +47,12 @@ body {
   h4 {
     font-size: 2rem;
     font-weight: 800;
-    color: $primary-color;
     line-height: 2.5rem;
   }
 
   h5 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: $second-color;
   }
 
   h6 {
@@ -101,7 +98,7 @@ body {
       &:focus,
       &:hover {
         outline: 0;
-        color: $third-color;
+        color: $background-color;
         transition: color 1s ease;
         cursor: pointer;
       }
@@ -368,7 +365,7 @@ body {
 
   // INTRODUCE
   .introduce {
-    background-color: $third-color;
+    background-color: $background-color;
     padding: 5rem 0;
 
     .hello {
@@ -433,70 +430,68 @@ body {
     }
   }
 
-  // SKILLS
-  .skills {
-    background-color: #fff;
+  // // SKILLS
+  // .skills {
+  //   background-color: #fff;
 
-    h2 {
-      margin-bottom: 2rem;
-      color: #2f2f2f;
-    }
+  //   h2 {
+  //     margin-bottom: 2rem;
+  //   }
 
-    .container {
-      padding: 5rem 0;
-      h4 {
-        margin: 2rem 0 1rem;
-        color: $primary-color;
-      }
+  //   .container {
+  //     padding: 5rem 0;
+  //     h4 {
+  //       margin: 2rem 0 1rem;
+  //       color: $primary-color;
+  //     }
 
-      .skill-bar {
-        background-color: $third-color;
-        color: #fff;
-        margin: 0.8rem;
-        padding: 1rem;
-      }
+  //     .skill-bar {
+  //       background-color: $background-color;
+  //       color: #fff;
+  //       margin: 0.8rem;
+  //       padding: 1rem;
+  //     }
 
-      .s-100 {
-        width: 100%;
-      }
+  //     .s-100 {
+  //       width: 100%;
+  //     }
 
-      .s-80 {
-        width: 80%;
-      }
+  //     .s-80 {
+  //       width: 80%;
+  //     }
 
-      .s-70 {
-        width: 70%;
-      }
+  //     .s-70 {
+  //       width: 70%;
+  //     }
 
-      .s-60 {
-        width: 60%;
-      }
+  //     .s-60 {
+  //       width: 60%;
+  //     }
 
-      .s-50 {
-        width: 50%;
-      }
+  //     .s-50 {
+  //       width: 50%;
+  //     }
 
-      .s-30 {
-        width: 30%;
-      }
-    }
-    .design{
-      .s-70 {
-        margin-bottom: 0;
-      }
-    }
-  }
+  //     .s-30 {
+  //       width: 30%;
+  //     }
+  //   }
+  //   .design{
+  //     .s-70 {
+  //       margin-bottom: 0;
+  //     }
+  //   }
+  // }
 
 
   // REDESIGN
   .redesign {
     margin: 0 auto;
     padding: 5rem 0 10rem;
-    background-color: $primary-color;
+    background-color: $second-color;
 
     h2 {
       margin-bottom: 2rem;
-      color: #fff;
     }
 
     .slick-slide {
@@ -510,20 +505,29 @@ body {
 
       &:hover {
         background-color: $background-color;
-        h4 {
-          color: $primary-color;
-        }
       }
 
       h4 {
         margin: 1rem 0;
-        color: $third-color;
       }
 
       img {
         width: 300px;
         height: 200px;
         border-radius: 10px;
+      }
+      .img__opacity {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: rgba( #344FA1 , 0.6);
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+        z-index: 10;
+      }
+      &:hover .img__opacity {
+        background-color: rgba( #344FA1 , 0);
       }
     }
 
@@ -606,11 +610,9 @@ body {
   // PUBLISHING
   .publishing {
     padding: 5rem 0 10rem;
-    background-color: $third-color;
 
     h2 {
       margin-bottom: 2rem;
-      color: #fff;
     }
 
     .slick-slide {
@@ -623,7 +625,7 @@ body {
       cursor: pointer;
 
       &:hover {
-        background-color: $background-color;
+        background-color: $second-color;
       }
 
       h4 {
@@ -634,6 +636,20 @@ body {
         width: 300px;
         height: 200px;
         border-radius: 10px;
+      }
+      .img__opacity {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: rgba( #344FA1 , 0.5);
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+        z-index: 10;
+        transition: 0.5s;
+      }
+      &:hover .img__opacity {
+        background-color: rgba( #344FA1 , 0);
       }
     }
 
@@ -662,7 +678,7 @@ body {
       content: "\f060";
       font-family: "Font Awesome 5 Free";
       font-weight: 600;
-      color: #fff;
+      color: $primary-color;
       background: none;
       font-size: 2rem;
       padding: 0.5rem 0.8rem;
@@ -674,7 +690,7 @@ body {
       content: "\f061";
       font-family: "Font Awesome 5 Free";
       font-weight: 600;
-      color: #fff;
+      color: $primary-color;
       background: none;
       font-size: 2rem;
       padding: 0.5rem 0.8rem;
@@ -699,7 +715,7 @@ body {
         width: 20px;
         height: 10px;
         font-size: 0rem;
-        background: #fff;
+        background: $primary-color;
         border: none;
         border-radius: 10px;
         margin: 0.5rem 0;
@@ -721,7 +737,6 @@ body {
 
     h2 {
       margin-bottom: 2rem;
-      color: $second-color;
     }
 
     .flex {
@@ -739,6 +754,7 @@ body {
 
         h4 {
           margin-bottom: 2rem;
+          color: $primary-color;
         }
 
         h6 {
@@ -758,7 +774,7 @@ body {
     text-align: center;
     background-color: $primary-color;
 
-    h4 {
+    h4,h6 {
       color: $background-color;
     }
 
