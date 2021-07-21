@@ -45,8 +45,9 @@ body {
     font-weight: 400;
     line-height: 1.2rem; }
   body i {
-    color: #FFF5EA;
-    margin-right: 1rem; }
+    color: #065C6F;
+    margin-right: 1rem;
+    font-size: 1.5rem; }
   body .container {
     width: 1200px;
     margin: 0 auto; }
@@ -148,12 +149,18 @@ body {
       overflow: hidden;
       display: flex;
       justify-content: space-around; }
-      body main .overlay .o__intriduce li {
-        font-size: 2rem;
-        height: 50px;
-        color: #fff; }
-        body main .overlay .o__intriduce li:nth-child(1) {
-          margin-bottom: 300px; }
+      body main .overlay .o__intriduce {
+        text-align: left; }
+        body main .overlay .o__intriduce li {
+          font-size: 2rem;
+          height: 50px;
+          color: #fff;
+          margin-left: 0rem; }
+          body main .overlay .o__intriduce li i {
+            margin: 0;
+            color: #fff; }
+          body main .overlay .o__intriduce li:nth-child(1) {
+            margin-bottom: 300px; }
       body main .overlay .middle-bar {
         width: 5px;
         height: 90%;
@@ -163,7 +170,8 @@ body {
       body main .overlay .site {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; }
+        align-items: flex-start;
+        text-align: left; }
         body main .overlay .site ul:nth-child(1) {
           margin-bottom: 3rem; }
         body main .overlay .site ul li:nth-child(1) {
@@ -256,14 +264,17 @@ body {
         body .introduce .container .i__left img {
           margin-bottom: 2rem; }
         body .introduce .container .i__left .i_left_txt {
-          margin-top: 2rem; }
+          margin-top: 2rem;
+          text-align: center; }
           body .introduce .container .i__left .i_left_txt h6 {
-            margin: 1rem 0; }
+            margin: 1rem 0;
+            text-align: left;
+            margin-left: 9rem; }
       body .introduce .container .i__right {
         width: 60%; }
         body .introduce .container .i__right h4 {
           margin-bottom: 2rem;
-          color: #FFF5EA; }
+          color: #065C6F; }
         body .introduce .container .i__right .education {
           margin-bottom: 2rem; }
           body .introduce .container .i__right .education .e__grid {
@@ -496,17 +507,16 @@ body {
       body .rules .flex .r__left,
       body .rules .flex .r__right {
         width: 45%;
-        height: 800px;
+        height: 950px;
         background-color: #fff;
         padding: 2rem;
-        border-radius: 30px;
-        text-align: center; }
+        border-radius: 30px; }
         body .rules .flex .r__left h4,
         body .rules .flex .r__right h4 {
           margin-bottom: 2rem; }
         body .rules .flex .r__left h6,
         body .rules .flex .r__right h6 {
-          margin-bottom: 0.3rem; }
+          margin-bottom: 0.5rem; }
         body .rules .flex .r__left p,
         body .rules .flex .r__right p {
           margin-bottom: 1rem; }
