@@ -1,9 +1,5 @@
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
 $background-color : #2f2f2f;
 $primary-color : #32c1c4;
@@ -19,7 +15,7 @@ body {
     list-style: none;
     text-decoration: none;
     color: #2f2f2f;
-    font-family: 'GmarketSansMedium';
+    font-family: 'Nanum Gothic', 'Maven Pro', sans-serif;
   }
 
   img {
@@ -64,8 +60,8 @@ body {
 
   p {
     font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
   }
 
   i {
@@ -399,7 +395,11 @@ body {
 
       .i__left {
         width: 40%;
-        text-align: center;
+        margin-left: 8rem;
+
+        h6 {
+          color: #fff;
+        }
 
         img {
           margin-bottom: 2rem;
@@ -407,13 +407,10 @@ body {
 
         .i_left_txt {
           margin-top: 2rem;
-          text-align: center;
 
           h6 {
             margin: 1rem 0;
-            text-align: left;
             color: #fff;
-            margin-left: 9rem;
 
             a {
               color: #fff;
@@ -443,6 +440,13 @@ body {
             grid-template-rows: 8fr 8fr;
             grid-gap: 20px;
           }
+        }
+        .myself {
+          h6 {
+            color: #fff;
+            line-height: 2rem;
+          }
+  
         }
       }
     }

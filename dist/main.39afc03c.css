@@ -1,9 +1,5 @@
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 body * {
   margin: 0;
   padding: 0;
@@ -11,7 +7,7 @@ body * {
   list-style: none;
   text-decoration: none;
   color: #2f2f2f;
-  font-family: 'GmarketSansMedium'; }
+  font-family: 'Nanum Gothic', 'Maven Pro', sans-serif; }
 
 body img {
   width: 200px; }
@@ -48,8 +44,8 @@ body h6 {
 
 body p {
   font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.2rem; }
+  font-weight: 600;
+  line-height: 1.5rem; }
 
 body i {
   color: #32c1c4;
@@ -276,17 +272,16 @@ body .introduce {
     align-items: center; }
     body .introduce .container .i__left {
       width: 40%;
-      text-align: center; }
+      margin-left: 8rem; }
+      body .introduce .container .i__left h6 {
+        color: #fff; }
       body .introduce .container .i__left img {
         margin-bottom: 2rem; }
       body .introduce .container .i__left .i_left_txt {
-        margin-top: 2rem;
-        text-align: center; }
+        margin-top: 2rem; }
         body .introduce .container .i__left .i_left_txt h6 {
           margin: 1rem 0;
-          text-align: left;
-          color: #fff;
-          margin-left: 9rem; }
+          color: #fff; }
           body .introduce .container .i__left .i_left_txt h6 a {
             color: #fff; }
     body .introduce .container .i__right {
@@ -303,6 +298,9 @@ body .introduce {
           grid-template-columns: 100px 1fr;
           grid-template-rows: 8fr 8fr;
           grid-gap: 20px; }
+      body .introduce .container .i__right .myself h6 {
+        color: #fff;
+        line-height: 2rem; }
 
 body .redesign {
   margin: 0 auto;
