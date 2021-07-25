@@ -5,7 +5,6 @@ $background-color : #2f2f2f;
 $primary-color : #32c1c4;
 $second-color : #26c984;
 
-
 body {
 
   * {
@@ -86,6 +85,10 @@ body {
       user-select: none;
       padding: 10px;
       transition: color 1s ease;
+      -webkit-transition: color 1s ease;
+      -moz-transition: color 1s ease;
+      -o-transition: color 1s ease;
+      -ms-transition: color 1s ease;
       font-weight: 600;
       color: #fff;
       border-bottom: 3px solid #fff;
@@ -97,12 +100,20 @@ body {
       &:hover {
         outline: 0;
         color: $primary-color;
+        -webkit-transition: color 1s ease;
+        -moz-transition: color 1s ease;
+        -o-transition: color 1s ease;
+        -ms-transition: color 1s ease;
         transition: color 1s ease;
         cursor: pointer;
       }
 
       &:after,
       &:before {
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
         transition: all 1s ease 0s;
       }
 
@@ -112,6 +123,10 @@ body {
       &:hover:before {
         outline: 0;
         background-color: $primary-color;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
         transition: all 1s ease 0s;
       }
 
@@ -441,12 +456,13 @@ body {
             grid-gap: 20px;
           }
         }
+
         .myself {
           h6 {
             color: #fff;
             line-height: 2rem;
           }
-  
+
         }
       }
     }

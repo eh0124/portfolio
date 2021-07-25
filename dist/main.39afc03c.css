@@ -66,6 +66,10 @@ body .btn-primary {
     user-select: none;
     padding: 10px;
     transition: color 1s ease;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    -ms-transition: color 1s ease;
     font-weight: 600;
     color: #fff;
     border-bottom: 3px solid #fff;
@@ -75,13 +79,25 @@ body .btn-primary {
     body .btn-primary span:focus, body .btn-primary span:hover {
       outline: 0;
       color: #32c1c4;
+      -webkit-transition: color 1s ease;
+      -moz-transition: color 1s ease;
+      -o-transition: color 1s ease;
+      -ms-transition: color 1s ease;
       transition: color 1s ease;
       cursor: pointer; }
     body .btn-primary span:after, body .btn-primary span:before {
+      -webkit-transition: all 1s ease 0s;
+      -moz-transition: all 1s ease 0s;
+      -o-transition: all 1s ease 0s;
+      -ms-transition: all 1s ease 0s;
       transition: all 1s ease 0s; }
     body .btn-primary span:focus:after, body .btn-primary span:focus:before, body .btn-primary span:hover:after, body .btn-primary span:hover:before {
       outline: 0;
       background-color: #32c1c4;
+      -webkit-transition: all 1s ease 0s;
+      -moz-transition: all 1s ease 0s;
+      -o-transition: all 1s ease 0s;
+      -ms-transition: all 1s ease 0s;
       transition: all 1s ease 0s; }
     body .btn-primary span:before {
       position: absolute;
