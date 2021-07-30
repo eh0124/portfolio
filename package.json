@@ -11,26 +11,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefix": "^1.0.1",
+    "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.5",
-    "postcss": "^8.1.7",
-    "postcss-cli": "^8.0",
-    "sass-autoprefixer": "^1.0.1",
-    "sass-loader": "^12.1.0",
-    "tailwindcss": "^2.2.7"
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.3.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.2",
-    "node-sass": "^6.0.1",
-    "postcss-loader": "^4.0.4",
-    "sass": "^1.35.2"
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "sass": "^1.34.1"
+  },
+  "staticFiles": {
+    "staticPath": "static"
   },
   "browserslist": [
-    "defaults",
-    "not ie < 11",
-    "last 2 versions",
     "> 1%",
-    "iOS 7",
-    "last 3 iOS versions"
+    "last 2 versions"
   ]
 }
